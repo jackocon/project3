@@ -88,7 +88,6 @@ input {
    input[type="text"],
    input[type="email"],
    input[type="tel"],
-   textarea,
    select {
    	background-color: #EFF0F1;
    	border-radius: 6px;
@@ -99,6 +98,17 @@ input {
    	border: none;
    	outline-color: #485d71;
    }
+
+	 textarea {
+		 background-color: #EFF0F1;
+		 border-radius: 6px;
+		 font-size: 1em;
+		 margin: .3em 0 1.5em;
+		 padding: 1em 1.3em;
+		 width: 93%;
+		 border: none;
+		 outline-color: #485d71;
+	 }
 
    input[type="radio"],
    input[type="checkbox"] {
@@ -205,13 +215,6 @@ input {
 
 		 	}
 
-			.container2 {
-				width: 50%;
- 		 		max-width: none;
- 		 		margin: 0 auto;
- 		 		padding: 0 auto;
- 		 	}
-
 
 		 	input[type="text"],
 			input[type="tel"],
@@ -254,17 +257,6 @@ input {
     label.labelradio {
     	margin-left: .5em;
     }
-
-		.btn {
-		 display: block;
-		 width: 50%;
-		 padding: 1em;
-		 margin: auto;
-		 font-size: 1.2em;
-		 font-weight: 700;
-		 border-radius: 6px;
-		 border: none;
-		}
 
 		input#zip_code {
 			width: 20%;
