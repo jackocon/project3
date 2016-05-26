@@ -195,13 +195,80 @@ input {
 
    @media (min-width: 760px){
 
+		 .container {
+		 		margin: 0 auto;
+		 		padding: 0 auto;
+		 	}
+		 	.container label {
+		 		width: 24%;
+		 		display: inline-block;
+
+		 	}
+
+			.container2 {
+				width: 50%;
+ 		 		max-width: none;
+ 		 		margin: 0 auto;
+ 		 		padding: 0 auto;
+ 		 	}
+
+
+		 	input[type="text"],
+			input[type="tel"],
+		 	input[type="email"],
+		 	.selector,
+		 	select{
+				display: inline-block;
+		 		width: 65%;
+		 	}
    	form {
-   		max-width: 600px;
+   		width: 50%;
+			max-width: none;
+			min-width: 600px;
    	}
 
-   	::-webkit-input-placeholder { text-indent: 85%; }
-   	::-moz-placeholder { text-indent: 85%; }
-   	:-ms-input-placeholder { text-indent: 85%; }
-   	:-moz-placeholder { text-indent: 85%; }
+		/*input[type="text"],
+		input[type="email"],
+		input[type="tel"],
+		select {
+    background-color: #EFF0F1;
+    border-radius: 6px;
+    font-size: 1em;
+    margin: .3em 0 1em;
+    padding: 1em 1.3em;
+    width: 40%;
+    border: none;
+    outline-color: #485d71;
+		float: right;
+	}
 
-   }
+		label {
+			width: 30%;
+			float: left;
+			margin: .3em 0 1em;
+	   	padding: 1em 1.3em;
+		}*/
+
+		label.description,
+		label.labelcheckbox,
+    label.labelradio {
+    	margin-left: .5em;
+    }
+
+		.btn {
+		 display: block;
+		 width: 50%;
+		 padding: 1em;
+		 margin: auto;
+		 font-size: 1.2em;
+		 font-weight: 700;
+		 border-radius: 6px;
+		 border: none;
+		}
+
+		input#zip_code {
+			width: 20%;
+			max-width: 200px;
+		}
+
+		}
