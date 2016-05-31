@@ -207,7 +207,7 @@ input {
 
 		 .container {
 		 		margin: 0 auto;
-		 		padding: 0 auto;
+		 		padding: 0;
 		 	}
 		 	.container label {
 		 		width: 24%;
@@ -258,7 +258,7 @@ input {
     	margin-left: .5em;
     }
 
-		input#zip_code {
+		input#zipcode {
 			width: 20%;
 			max-width: 200px;
 		}

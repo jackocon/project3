@@ -36,7 +36,7 @@
         <input type="text" id="city" name="user_city">
 
         <label for="state">State</label>
-        <select name="state" size="1">
+        <select id="state" size="1">
           <option value="">Choose State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -92,7 +92,7 @@
         </select>
 
         <label for="zipcode">Zip Code</label>
-        <input type="text" pattern="[0-9]{5}" maxlength="5" name="zip_code" id="zip_code">
+        <input type="text" pattern="[0-9]{5}" maxlength="5" name="zip_code" id="zipcode">
       </fieldset>
       </div><!--container end-->
       <hr class="single-hr">
@@ -100,15 +100,15 @@
       <fieldset class="fieldset-2">
         <legend>Newsletter</legend>
           <label class="description">Select the newsletters would you like to receive</label>
-						<input type="checkbox" name="html_news" id="html_news"><label for="html_news" class="labelcheckbox">HTML News</label><br>
-						<input type="checkbox" name="css_news" 	id="css_news"><label for="css_news" class="labelcheckbox">CSS News</label><br>
-						<input type="checkbox" name="js_news" 	id="js_news"><label for="js_news" class="labelcheckbox">JavaScript News</label>
+						<input type="checkbox" value="html_news" name="html_news" id="html_news"><label for="html_news" class="labelcheckbox">HTML News</label><br>
+						<input type="checkbox" value="css_news" name="css_news" 	id="css_news"><label for="css_news" class="labelcheckbox">CSS News</label><br>
+						<input type="checkbox" value="js_news" name="js_news" 	id="js_news"><label for="js_news" class="labelcheckbox">JavaScript News</label>
 
 					<label class="description">Newsletter format</label>
-						<input type="radio" name="formats" id="html_format"><label for="html_format" class="labelradio">HTML</label><br>
-						<input type="radio" name="formats" id="text_format"><label for="text_format" class="labelradio">Plain text</label>
+						<input type="radio" value="html_format" name="formats" id="html_format"><label for="html_format" class="labelradio">HTML</label><br>
+						<input type="radio" value="text_format" name="formats" id="text_format"><label for="text_format" class="labelradio">Plain text</label>
 
-					<label class="description">Other topics you'd like hear about</label>
+					<label for="topic" class="description">Other topics you'd like hear about</label>
 						<textarea name="other_topics" id="topic"></textarea>
       </fieldset>
       </div><!--container2 end-->
